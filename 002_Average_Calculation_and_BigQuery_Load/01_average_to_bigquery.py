@@ -3,7 +3,7 @@ from apache_beam.options.pipeline_options import PipelineOptions, GoogleCloudOpt
 from apache_beam.io.gcp.bigquery import WriteToBigQuery
 import os
 
-SERVICE_ACCOUNT_FILE = "/Users/p/Documents/sa/service_account.json"
+SERVICE_ACCOUNT_FILE = "/path/to/service_account.json"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = SERVICE_ACCOUNT_FILE
 
 # Konfiguracja opcji pipeline
