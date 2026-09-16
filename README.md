@@ -18,10 +18,10 @@ Większość notebooków powstała i była uruchamiana w Google Colab (`!pip ins
 Pliki są numerowane chronologicznie (`001` → `025`) w kolejności, w jakiej przerabiane były tematy. Poniższa tabela grupuje je tematycznie dla łatwiejszego przeglądania.
 
 ### Start
-| # | Notebook / Skrypt | Temat |
+| # | Skrypt | Temat |
 |---|---|---|
-| 001 | [`001_Getting_Started/`](001_Getting_Started) | Pierwsze pipeline'y w Beam: przegląd importów, `ParDo`, własny `CombineFn` do liczenia średniej |
-| 002 | [`002_Average_Calculation_and_BigQuery_Load/`](002_Average_Calculation_and_BigQuery_Load) | Minimalny pipeline zapisujący zagregowany wynik do BigQuery przez Dataflow |
+| 001 A–C | [`001_A_Imports_and_Setup.py`](001_A_Imports_and_Setup.py), [`001_B_ParDo_Square_Numbers.py`](001_B_ParDo_Square_Numbers.py), [`001_C_CombineFn_Average.py`](001_C_CombineFn_Average.py) | Pierwsze pipeline'y w Beam: przegląd importów, `ParDo`, własny `CombineFn` do liczenia średniej |
+| 002 | [`002_Average_Calculation_and_BigQuery_Load.py`](002_Average_Calculation_and_BigQuery_Load.py) | Minimalny pipeline zapisujący zagregowany wynik do BigQuery przez Dataflow |
 
 ### Podstawowe transformacje
 | # | Notebook | Temat |
@@ -39,7 +39,7 @@ Pliki są numerowane chronologicznie (`001` → `025`) w kolejności, w jakiej p
 ### Streaming z Pub/Sub
 | # | Notebook | Temat |
 |---|---|---|
-| 012 A–C | [`012_A_Publish_Run_PubSub_Streaming_Pipeline.ipynb`](012_A_Publish_Run_PubSub_Streaming_Pipeline.ipynb), [`012_B_...`](012_B_Process_Run_PubSub_Streaming_Pipeline_on_GCP.ipynb), [`012_C_...`](012_C_Subscribe_Run_PubSub_Streaming_Pipeline_on_GCP.ipynb) | Wzorzec publish / process / subscribe dla pipeline'u strumieniowego Pub/Sub na GCP |
+| 012 A–C | [`012_A_Publish_to_PubSub_Streaming_Pipeline.ipynb`](012_A_Publish_to_PubSub_Streaming_Pipeline.ipynb), [`012_B_...`](012_B_Process_PubSub_Streaming_Pipeline_on_GCP.ipynb), [`012_C_...`](012_C_Subscribe_to_PubSub_Streaming_Pipeline_on_GCP.ipynb) | Wzorzec publish / process / subscribe dla pipeline'u strumieniowego Pub/Sub na GCP |
 
 ### Windowing i watermarki
 | # | Notebook | Temat |
@@ -56,7 +56,7 @@ Pliki są numerowane chronologicznie (`001` → `025`) w kolejności, w jakiej p
 | # | Notebook | Temat |
 |---|---|---|
 | 020 | [`020_Mobile_Game_Analysis.ipynb`](020_Mobile_Game_Analysis.ipynb) | Analiza end-to-end zdarzeń bitewnych z gry mobilnej |
-| 024 | [`024_Identify_Banks_Defaulter_Customers.ipynb`](024_Identify_Banks_Defaulter_Customers.ipynb) | Identyfikacja klientów banku niespłacających kredytów na podstawie danych o kartach i pożyczkach |
+| 024 | [`024_Identify_Bank_Loan_Defaulters.ipynb`](024_Identify_Bank_Loan_Defaulters.ipynb) | Identyfikacja klientów banku niespłacających kredytów na podstawie danych o kartach i pożyczkach |
 
 ### Integracja z GCP
 | # | Notebook | Temat |
