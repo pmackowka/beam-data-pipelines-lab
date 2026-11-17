@@ -1,4 +1,4 @@
-# Beam Data Pipelines Lab
+# beam-data-pipelines-lab
 
 Praktyczne repozytorium nauki Apache Beam (Python SDK) — przetwarzanie danych wsadowe i strumieniowe: od podstawowych transformacji, przez windowing, streaming z Pub/Sub, po wdrożenie na Google Cloud Dataflow z BigQuery jako sinkiem.
 
