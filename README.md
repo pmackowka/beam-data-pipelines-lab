@@ -1,5 +1,7 @@
 # beam-data-pipelines-lab
 
+[![License: MIT](https://img.shields.io/github/license/pmackowka/beam-data-pipelines-lab)](LICENSE)
+
 Praktyczne repozytorium nauki Apache Beam (Python SDK) — przetwarzanie danych wsadowe i strumieniowe: od podstawowych transformacji, przez windowing, streaming z Pub/Sub, po wdrożenie na Google Cloud Dataflow z BigQuery jako sinkiem.
 
 Większość notebooków powstała i była uruchamiana w Google Colab (`!pip install apache-beam`, ścieżki `/content/...`), a potem trafiła tutaj jako zapis materiału w kolejności, w jakiej był przerabiany.
